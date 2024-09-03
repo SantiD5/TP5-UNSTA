@@ -8,15 +8,8 @@ int main(){
   printf("Ingrese un numero Binario:\n");
   scanf("%d",&decimal);
 
-  int temp = decimal;
 
-  while (temp > 0)
-  {
-    resto = temp % 2;
-    binario += resto * base;
-    temp = temp / 2;
-    base = base * 10;
-  }
+
   printf("\n\n");
   printf("El numero decimal ingresado es: %d\n",decimal);
   printf("El numero decimal expresado en binario es: %d",binario);

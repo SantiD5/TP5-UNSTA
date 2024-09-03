@@ -8,3 +8,11 @@ e) en el segundo cuadrante
 f) en el tercer cuadrante
 g) en el cuarto cuadrante
 */
+#include <stdio.h>
+
+int main(){
+  
+  
+  
+  return 0;
+}
